@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   get_next_line_bonus.h                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: kmatsuka <kmatsuka@student.42tokyo.>       +#+  +:+       +#+        */
+/*   By: kmatsuka <kmatsuka@student.42tokyo.jp>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/11 12:44:34 by kmatsuka          #+#    #+#             */
-/*   Updated: 2024/02/12 15:53:23 by kmatsuka         ###   ########.fr       */
+/*   Updated: 2024/02/13 12:22:39 by kmatsuka         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@
 #  define BUFFER_SIZE 1
 # endif
 
-# include "libft.h"
+# include "../libft/libft.h"
 
 char	*get_next_line(int fd);
 char	*my_make_save(char *save, int fd);

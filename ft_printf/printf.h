@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   printf.h                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: kmatsuka <kmatsuka@student.42tokyo.>       +#+  +:+       +#+        */
+/*   By: kmatsuka <kmatsuka@student.42tokyo.jp>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/30 19:09:36 by kmatsuka          #+#    #+#             */
-/*   Updated: 2024/02/12 15:44:08 by kmatsuka         ###   ########.fr       */
+/*   Updated: 2024/02/13 12:21:32 by kmatsuka         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 # define PRINTF_H
 
 # define FD 1
-# include "libft.h"
+# include "../libft/libft.h"
 # include <stdarg.h>
 
 int			ft_printf(const char *format, ...);
